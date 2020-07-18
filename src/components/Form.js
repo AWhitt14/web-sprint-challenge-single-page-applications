@@ -103,7 +103,7 @@ const PizzaForm = props => {
 
                 <Input type='text' label='Special Instructions' name='specInst' value={newPizza.specInst} onChange={change}/>
 
-                <button disabled={buttonOff} type='submit'>Add to Order</button>
+                <button data-cy="submit" disabled={buttonOff} type='submit'>Add to Order</button>
             </form>
         </div>
     )
